@@ -1,0 +1,182 @@
+﻿body {
+    .header-child, .header-item
+
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d7f8ff;
+    width: 1385px;
+    height: 38px;
+}
+
+.header-item {
+    left: 1127px;
+    background-color: #64bff2;
+    width: 258px;
+}
+
+.phone-icon13 {
+    position: absolute;
+    top: 9px;
+    left: 1142px;
+    width: 25px;
+    height: 21px;
+    object-fit: cover;
+}
+
+.xxxxxxxxxx13 {
+    position: absolute;
+    top: 8px;
+    left: 1176px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    width: 192px;
+    height: 30px;
+}
+
+.header-inner {
+    position: absolute;
+    top: -0.5px;
+    left: 1124.5px;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    width: 1px;
+    height: 39px;
+}
+
+.tooth-icon10 {
+    position: absolute;
+    top: 55px;
+    left: 26px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.clinic11 {
+    position: absolute;
+    top: 61px;
+    left: 71px;
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.header-child1,
+.open-envelope-icon12 {
+    position: absolute;
+    top: 0;
+    left: 840px;
+    width: 286.5px;
+    height: 38px;
+    object-fit: cover;
+}
+
+.open-envelope-icon12 {
+    top: 8px;
+    left: 861px;
+    width: 23px;
+    height: 21px;
+}
+
+.email12 {
+    position: absolute;
+    top: 8px;
+    left: 887px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    width: 280px;
+    height: 18px;
+}
+
+.about11,
+.contact11,
+.receptionist11 {
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 822px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about11,
+.contact11 {
+    left: 652px;
+    width: 47px;
+}
+
+.contact11 {
+    left: 730px;
+    width: 61px;
+}
+
+.register12 {
+    text-decoration: none;
+    left: 1142px;
+    width: 93px;
+}
+
+.laboratorian11,
+.login14,
+.register12 {
+    position: absolute;
+    top: 65px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    height: 22px;
+    cursor: pointer;
+}
+
+.login14 {
+    text-decoration: none;
+    left: 1239px;
+    width: 45px;
+}
+
+.laboratorian11 {
+    left: 946px;
+    width: 93px;
+}
+
+.doctor10,
+.header,
+.laboratorian11 {
+    text-decoration: none;
+}
+
+.doctor10 {
+    position: absolute;
+    top: 65px;
+    left: 1070px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    width: 56px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 107px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

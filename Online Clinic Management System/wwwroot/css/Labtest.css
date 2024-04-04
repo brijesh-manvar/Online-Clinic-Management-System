@@ -1,0 +1,195 @@
+﻿body {
+    .labtest-1-icon
+
+{
+    position: absolute;
+    top: 105px;
+    left: 0;
+    width: 1385px;
+    height: 674px;
+    object-fit: cover;
+}
+
+.lab-test-child,
+.submit4 {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 180px;
+}
+
+.lab-test-child {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    background-color: #0015d4;
+    top: 481px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 97px;
+    height: 34px;
+}
+
+.submit4 {
+    border: 0;
+    background-color: transparent;
+    top: 490px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 92px;
+    height: 18px;
+}
+
+.lab-test-inner,
+.lab-test-item {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 314px;
+    left: 96px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 34px;
+}
+
+.lab-test-inner {
+    top: 412px;
+}
+
+.lab-test3,
+.lab-test4,
+.test-cost {
+    position: absolute;
+    color: #000;
+    display: inline-block;
+}
+
+.lab-test3 {
+    top: 242px;
+    left: 201px;
+    font-size: 20px;
+    font-weight: 800;
+    width: 90px;
+    height: 23px;
+}
+
+.lab-test4,
+.test-cost {
+    top: 322px;
+    left: 114px;
+    font-weight: 100;
+    width: 144px;
+    height: 18px;
+}
+
+.test-cost {
+    top: 420px;
+}
+
+.tooth-icon15 {
+    position: absolute;
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.about16,
+.clinic16,
+.receptionist18 {
+    position: absolute;
+    display: inline-block;
+}
+
+.clinic16 {
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    width: 175px;
+    height: 38px;
+}
+
+.about16,
+.receptionist18 {
+    top: 53px;
+    left: 816px;
+    font-weight: 600;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about16 {
+    left: 646px;
+    width: 47px;
+}
+
+.contact16,
+.doctor17,
+.laboratorian18,
+.login27,
+.logout8,
+.register17 {
+    position: absolute;
+    top: 53px;
+    left: 724px;
+    font-weight: 600;
+    display: inline-block;
+    width: 61px;
+    height: 22px;
+}
+
+.doctor17,
+.laboratorian18,
+.login27,
+.logout8,
+.register17 {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor17,
+.laboratorian18,
+.login27,
+.logout8 {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor17,
+.laboratorian18,
+.logout8 {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor17,
+.laboratorian18 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor17 {
+    left: 1064px;
+    width: 56px;
+}
+
+.lab-test2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

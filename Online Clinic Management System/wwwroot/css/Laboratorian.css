@@ -1,0 +1,280 @@
+﻿body {
+    .lab-1-icon
+
+{
+    position: absolute;
+    top: 109px;
+    left: 0;
+    width: 1385px;
+    height: 670px;
+    object-fit: cover;
+}
+
+.laboratorian-child,
+.submit1 {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 180px;
+}
+
+.laboratorian-child {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    background-color: #0015d4;
+    top: 526px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 97px;
+    height: 34px;
+}
+
+.submit1 {
+    border: 0;
+    background-color: transparent;
+    top: 533px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 92px;
+    height: 18px;
+}
+
+.laboratorian-child1,
+.laboratorian-child2,
+.laboratorian-inner,
+.laboratorian-item {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 193px;
+    left: 96px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 34px;
+}
+
+.laboratorian-child1,
+.laboratorian-child2,
+.laboratorian-inner {
+    top: 250px;
+}
+
+.laboratorian-child1,
+.laboratorian-child2 {
+    top: 307px;
+}
+
+.laboratorian-child2 {
+    top: 364px;
+}
+
+.laboratorian-detail {
+    position: absolute;
+    top: 146px;
+    left: 141px;
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    width: 194px;
+    height: 37px;
+}
+
+.email-add1,
+.name2,
+.password7,
+.phone-no1 {
+    position: absolute;
+    top: 201px;
+    left: 117px;
+    font-weight: 100;
+    display: inline-block;
+    width: 144px;
+    height: 18px;
+}
+
+.email-add1,
+.password7,
+.phone-no1 {
+    top: 258px;
+}
+
+.email-add1,
+.password7 {
+    top: 315px;
+}
+
+.password7 {
+    top: 372px;
+}
+
+.laboratorian-child3,
+.laboratorian-child4 {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 415px;
+    left: 219px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 164px;
+    height: 34px;
+}
+
+.laboratorian-child4 {
+    top: 469px;
+}
+
+.date-of-birth1,
+.dd-mm-yy1,
+.gender1,
+.male-female1 {
+    position: absolute;
+    top: 423px;
+    left: 96px;
+    font-weight: 200;
+    display: inline-block;
+    width: 62px;
+    height: 18px;
+}
+
+.date-of-birth1,
+.dd-mm-yy1,
+.male-female1 {
+    top: 477px;
+    width: 92px;
+}
+
+.dd-mm-yy1,
+.male-female1 {
+    top: 423px;
+    left: 231px;
+    font-weight: 100;
+}
+
+.dd-mm-yy1 {
+    top: 477px;
+    left: 238px;
+    height: 39px;
+}
+
+.microsoft-outlook-icon1,
+.tooth-icon10 {
+    position: absolute;
+    top: 474px;
+    left: 357px;
+    width: 26px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.tooth-icon10 {
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+}
+
+.clinic11 {
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #008bda;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.receptionist12 {
+    left: 816px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.about10,
+.contact10,
+.doctor12,
+.laboratorian13,
+.login22,
+.logout3,
+.receptionist12,
+.register12 {
+    position: absolute;
+    top: 53px;
+    font-weight: 600;
+    color: #008bda;
+    display: inline-block;
+    height: 22px;
+}
+
+.about10 {
+    left: 646px;
+    width: 47px;
+    cursor: pointer;
+}
+
+.contact10,
+.doctor12,
+.laboratorian13,
+.login22,
+.logout3,
+.register12 {
+    left: 724px;
+    width: 61px;
+}
+
+.doctor12,
+.laboratorian13,
+.login22,
+.logout3,
+.register12 {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor12,
+.laboratorian13,
+.login22,
+.logout3 {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor12,
+.laboratorian13,
+.logout3 {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor12,
+.laboratorian13 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor12 {
+    left: 1064px;
+    width: 56px;
+}
+
+.laboratorian12 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    font-family: Inter;
+}
+
+}

@@ -1,0 +1,194 @@
+﻿body {
+    .about-1-icon2
+
+{
+    position: absolute;
+    top: 109px;
+    left: 0;
+    width: 1385px;
+    height: 667px;
+    object-fit: cover;
+}
+
+.address1,
+.r-k-university1 {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.r-k-university1 {
+    font-weight: 500;
+}
+
+.address-r-k-container1 {
+    position: absolute;
+    top: 245px;
+    left: 632px;
+    font-size: 20px;
+    color: #000;
+    display: inline-block;
+    width: 357px;
+}
+
+.circled-envelope-icon1,
+.phone-icon2,
+.worldwide-location-icon1 {
+    position: absolute;
+    top: 266px;
+    left: 536px;
+    width: 77px;
+    height: 77px;
+    object-fit: cover;
+}
+
+.circled-envelope-icon1,
+.phone-icon2 {
+    top: 627px;
+    left: 547px;
+}
+
+.circled-envelope-icon1 {
+    top: 440px;
+    left: 536px;
+}
+
+.e-mail1 {
+    margin: 0;
+}
+
+.clinicgmailcom1 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.contact-us2,
+.e-mail-clinicgmailcom1,
+.phone-no-91-container1 {
+    position: absolute;
+    top: 452px;
+    left: 632px;
+    font-size: 20px;
+    color: #000;
+    display: inline-block;
+    width: 401px;
+    height: 82px;
+}
+
+.contact-us2,
+.phone-no-91-container1 {
+    top: 645px;
+    width: 377px;
+    height: 67px;
+}
+
+.contact-us2 {
+    top: 163px;
+    font-weight: 800;
+    width: 142px;
+    height: 26px;
+}
+
+.tooth-icon17 {
+    position: absolute;
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.about18,
+.clinic18,
+.receptionist20 {
+    position: absolute;
+    display: inline-block;
+}
+
+.clinic18 {
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    width: 175px;
+    height: 38px;
+}
+
+.about18,
+.receptionist20 {
+    top: 53px;
+    left: 816px;
+    font-weight: 600;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about18 {
+    left: 646px;
+    width: 47px;
+}
+
+.contact19,
+.doctor19,
+.laboratorian20,
+.login29,
+.logout10,
+.register19 {
+    position: absolute;
+    top: 53px;
+    left: 724px;
+    font-weight: 600;
+    display: inline-block;
+    width: 61px;
+    height: 22px;
+}
+
+.doctor19,
+.laboratorian20,
+.login29,
+.logout10,
+.register19 {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor19,
+.laboratorian20,
+.login29,
+.logout10 {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor19,
+.laboratorian20,
+.logout10 {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor19,
+.laboratorian20 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor19 {
+    left: 1064px;
+    width: 56px;
+}
+
+.contact18 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

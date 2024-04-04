@@ -1,0 +1,271 @@
+﻿body {
+    .regs-1-icon
+
+{
+    position: absolute;
+    top: 101px;
+    left: 0;
+    width: 1385px;
+    height: 677px;
+    object-fit: cover;
+}
+
+.register-child {
+    position: absolute;
+    top: 209px;
+    left: calc(50% - 110.5px);
+    background-color: var(--color-white);
+    width: 221px;
+    height: 323px;
+}
+
+.registration {
+    position: absolute;
+    top: 216px;
+    left: calc(50% - 47.5px);
+    font-size: 16px;
+    display: inline-block;
+    color: var(--color-black);
+    width: 97px;
+    height: 21px;
+}
+
+.register-item {
+    top: 262px;
+    backdrop-filter: blur(4px);
+}
+
+.rectangle-input,
+.register-child1,
+.register-child2,
+.register-inner,
+.register-item {
+    border: 1px solid var(--color-gainsboro);
+    outline: 0;
+    background-color: var(--color-white);
+    position: absolute;
+    left: calc(50% - 71.5px);
+    box-sizing: border-box;
+    width: 143px;
+    height: 23px;
+}
+
+.register-inner {
+    top: 299px;
+    backdrop-filter: blur(4px);
+}
+
+.rectangle-input,
+.register-child1,
+.register-child2 {
+    top: 336px;
+}
+
+.register-child1,
+.register-child2 {
+    top: 373px;
+}
+
+.register-child2 {
+    top: 410px;
+}
+
+.rectangle-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #d53d0e;
+    position: absolute;
+    top: 467px;
+    left: calc(50% - 41.5px);
+    width: 84px;
+    height: 23px;
+}
+
+.do-you-have,
+.login,
+.register1 {
+    position: absolute;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.register1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 469px;
+    left: calc(50% - 22.5px);
+    font-size: var(--font-size-xs);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    width: 47px;
+    height: 15px;
+}
+
+.do-you-have,
+.login {
+    top: 514px;
+    font-size: var(--font-size-3xs);
+}
+
+.do-you-have {
+    left: 605px;
+    color: var(--color-black);
+    width: 122px;
+    height: 13px;
+}
+
+.login {
+    text-decoration: none;
+    left: 727px;
+    color: inherit;
+    width: 27px;
+    height: 11px;
+    cursor: pointer;
+}
+
+.e-mail-id,
+.name,
+.password,
+.phone-number,
+.re-enter-password {
+    position: absolute;
+    top: 266px;
+    left: calc(50% - 63.5px);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+    display: inline-block;
+    width: 43px;
+    height: 15px;
+    opacity: 0.25;
+    mix-blend-mode: hard-light;
+}
+
+.e-mail-id,
+.password,
+.phone-number,
+.re-enter-password {
+    top: 303px;
+    width: 83px;
+}
+
+.e-mail-id,
+.password,
+.re-enter-password {
+    top: 340px;
+    width: 51px;
+}
+
+.password,
+.re-enter-password {
+    top: 377px;
+    width: 58px;
+}
+
+.re-enter-password {
+    top: 414px;
+    width: 112px;
+}
+
+.tooth-icon {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.clinic {
+    text-decoration: none;
+    position: absolute;
+    top: 38px;
+    left: 77px;
+    font-size: 32px;
+    font-weight: 800;
+    color: inherit;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.about,
+.contact,
+.doctor,
+.laboratorian,
+.login1,
+.receptionist,
+.register2 {
+    text-decoration: none;
+    position: absolute;
+    top: 42px;
+    left: 828px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about,
+.contact,
+.doctor,
+.laboratorian,
+.login1,
+.register2 {
+    left: 658px;
+    width: 47px;
+}
+
+.contact,
+.doctor,
+.laboratorian,
+.login1,
+.register2 {
+    left: 736px;
+    width: 61px;
+}
+
+.doctor,
+.laboratorian,
+.login1,
+.register2 {
+    left: 1148px;
+    width: 67px;
+}
+
+.doctor,
+.laboratorian,
+.login1 {
+    left: 1245px;
+    width: 45px;
+}
+
+.doctor,
+.laboratorian {
+    left: 952px;
+    width: 93px;
+}
+
+.doctor {
+    left: 1076px;
+    width: 56px;
+}
+
+.register {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-cornflowerblue);
+    font-family: var(--font-inter);
+}
+
+}

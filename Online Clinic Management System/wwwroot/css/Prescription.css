@@ -1,0 +1,247 @@
+﻿body {
+    .pre1-1-icon
+
+{
+    position: absolute;
+    top: 108px;
+    left: 0;
+    width: 1385px;
+    height: 674px;
+    object-fit: cover;
+}
+
+.precription-child,
+.submit {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+}
+
+.precription-child {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    background-color: #0015d4;
+    top: 499px;
+    left: calc(50% - 48.5px);
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 97px;
+    height: 34px;
+}
+
+.submit {
+    border: 0;
+    background-color: transparent;
+    top: 507px;
+    left: calc(50% - 46.5px);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 92px;
+    height: 18px;
+}
+
+.precription-child1,
+.precription-child2,
+.precription-inner,
+.precription-item,
+.rectangle-input {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 193px;
+    left: calc(50% - 150.5px);
+    box-sizing: border-box;
+    width: 300px;
+    height: 34px;
+}
+
+.precription-child1,
+.precription-child2,
+.precription-inner,
+.rectangle-input {
+    top: 250px;
+}
+
+.precription-child1,
+.precription-child2,
+.rectangle-input {
+    top: 307px;
+}
+
+.precription-child1,
+.precription-child2 {
+    top: 364px;
+}
+
+.precription-child2 {
+    top: 421px;
+}
+
+.prescription-detail {
+    position: absolute;
+    top: 146px;
+    left: calc(50% - 97.5px);
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    display: inline-block;
+    width: 194px;
+    height: 37px;
+}
+
+.cost,
+.doctor-name,
+.lab-test,
+.medicines,
+.patient-name {
+    position: absolute;
+    top: 201px;
+    left: calc(50% - 72.5px);
+    font-weight: 100;
+    color: #000;
+    display: inline-block;
+    width: 144px;
+    height: 18px;
+}
+
+.cost,
+.lab-test,
+.medicines,
+.patient-name {
+    top: 258px;
+}
+
+.cost,
+.lab-test,
+.medicines {
+    top: 315px;
+}
+
+.cost,
+.medicines {
+    top: 372px;
+}
+
+.cost {
+    top: 429px;
+}
+
+.frame-div {
+    position: absolute;
+    top: 108px;
+    left: 137px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.tooth-icon {
+    position: absolute;
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.clinic {
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.receptionist {
+    left: 816px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.about,
+.contact,
+.doctor,
+.laboratorian,
+.login,
+.logout,
+.receptionist,
+.register {
+    position: absolute;
+    top: 53px;
+    font-weight: 600;
+    display: inline-block;
+    height: 22px;
+}
+
+.about {
+    left: 646px;
+    width: 47px;
+    cursor: pointer;
+}
+
+.contact,
+.doctor,
+.laboratorian,
+.login,
+.logout,
+.register {
+    left: 724px;
+    width: 61px;
+}
+
+.doctor,
+.laboratorian,
+.login,
+.logout,
+.register {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor,
+.laboratorian,
+.login,
+.logout {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor,
+.laboratorian,
+.logout {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor,
+.laboratorian {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor {
+    left: 1064px;
+    width: 56px;
+}
+
+.precription {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

@@ -1,0 +1,237 @@
+﻿body {
+    
+
+
+    position: absolute;
+    top: 123px;
+    left: 0;
+    width: 1385px;
+    height: 674px;
+    background-image: url(./public/whatsapp-image-20240129-at-0916-1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.home-1-child,
+.home-1-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d7f8ff;
+    width: 1385px;
+    height: 38px;
+}
+
+.home-1-item {
+    left: 1127px;
+    background-color: #64bff2;
+    width: 258px;
+}
+
+.phone-icon1 {
+    position: absolute;
+    top: 9px;
+    left: 1142px;
+    width: 25px;
+    height: 21px;
+    object-fit: cover;
+}
+
+.xxxxxxxxxx1 {
+    position: absolute;
+    top: 8px;
+    left: 1176px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    width: 192px;
+    height: 30px;
+}
+
+.home-1-inner {
+    position: absolute;
+    top: -0.5px;
+    left: 1124.5px;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    width: 1px;
+    height: 39px;
+}
+
+.tooth-icon {
+    position: absolute;
+    top: 55px;
+    left: 26px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.clinic {
+    margin: 0;
+    position: absolute;
+    top: 61px;
+    left: 71px;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.rectangle-section {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background-color: rgba(8, 42, 93, 0.8);
+    width: 1385px;
+    height: 659px;
+}
+
+.back-icon,
+.forward-icon {
+    position: absolute;
+    top: 432px;
+    left: 35px;
+    width: 54px;
+    height: 63px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.forward-icon {
+    left: 1275px;
+}
+
+.clinic-management,
+.keep-your-body {
+    margin: 0;
+    position: absolute;
+    top: 389px;
+    left: calc(50% - 167.5px);
+    font-size: 24px;
+    font-weight: 800;
+    font-family: inherit;
+    color: #fff;
+    display: inline-block;
+    width: 336px;
+    height: 29px;
+}
+
+.clinic-management {
+    top: 426px;
+    left: calc(50% - 314.5px);
+    font-size: 64px;
+    font-weight: 900;
+    width: 629px;
+    height: 69px;
+}
+
+.home-1-child1,
+.open-envelope-icon1 {
+    position: absolute;
+    top: 0;
+    left: 840px;
+    width: 286.5px;
+    height: 38px;
+    object-fit: cover;
+}
+
+.open-envelope-icon1 {
+    top: 8px;
+    left: 861px;
+    width: 23px;
+    height: 21px;
+}
+
+.email1 {
+    position: absolute;
+    top: 8px;
+    left: 887px;
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    width: 280px;
+    height: 18px;
+}
+
+.receptionist {
+    left: 822px;
+    width: 93px;
+}
+
+.about,
+.contact,
+.doctor,
+.laboratorian,
+.login3,
+.receptionist,
+.register {
+    position: absolute;
+    top: 65px;
+    font-weight: 600;
+    display: inline-block;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    left: 652px;
+    font-size: 15px;
+    font-family: Inter;
+    color: #008bda;
+    text-align: left;
+    width: 47px;
+}
+
+.contact,
+.doctor,
+.laboratorian,
+.login3,
+.register {
+    left: 730px;
+    width: 61px;
+}
+
+.doctor,
+.laboratorian,
+.login3,
+.register {
+    left: 1142px;
+    width: 93px;
+}
+
+.doctor,
+.laboratorian,
+.login3 {
+    left: 1239px;
+    width: 45px;
+}
+
+.doctor,
+.laboratorian {
+    left: 946px;
+    width: 93px;
+}
+
+.doctor {
+    left: 1070px;
+    width: 56px;
+}
+
+.home-1 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}

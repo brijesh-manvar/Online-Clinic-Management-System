@@ -1,0 +1,283 @@
+﻿body {
+    .rec1-1-icon
+
+{
+    position: absolute;
+    top: 109px;
+    left: 0;
+    width: 1385px;
+    height: 670px;
+    object-fit: cover;
+}
+
+.receptionist-child,
+.submit2 {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 180px;
+}
+
+.receptionist-child {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    background-color: #0015d4;
+    top: 526px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 97px;
+    height: 34px;
+}
+
+.submit2 {
+    border: 0;
+    background-color: transparent;
+    top: 533px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 92px;
+    height: 18px;
+}
+
+.receptionist-child1,
+.receptionist-child2,
+.receptionist-inner,
+.receptionist-item {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 193px;
+    left: 96px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 34px;
+}
+
+.receptionist-child1,
+.receptionist-child2,
+.receptionist-inner {
+    top: 250px;
+}
+
+.receptionist-child1,
+.receptionist-child2 {
+    top: 307px;
+}
+
+.receptionist-child2 {
+    top: 364px;
+}
+
+.detail {
+    font-weight: 800;
+}
+
+.receptionist-detail {
+    position: absolute;
+    top: 146px;
+    left: 141px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    width: 194px;
+    height: 37px;
+}
+
+.email-add2,
+.name3,
+.password8,
+.phone-no2 {
+    position: absolute;
+    top: 201px;
+    left: 117px;
+    font-weight: 100;
+    color: #000;
+    display: inline-block;
+    width: 144px;
+    height: 18px;
+}
+
+.email-add2,
+.password8,
+.phone-no2 {
+    top: 258px;
+}
+
+.email-add2,
+.password8 {
+    top: 315px;
+}
+
+.password8 {
+    top: 372px;
+}
+
+.receptionist-child3,
+.receptionist-child4 {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 415px;
+    left: 219px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 164px;
+    height: 34px;
+}
+
+.receptionist-child4 {
+    top: 469px;
+}
+
+.date-of-birth2,
+.dd-mm-yy2,
+.gender2,
+.male-female2 {
+    position: absolute;
+    top: 423px;
+    left: 96px;
+    font-weight: 200;
+    color: #fff;
+    display: inline-block;
+    width: 62px;
+    height: 18px;
+}
+
+.date-of-birth2,
+.dd-mm-yy2,
+.male-female2 {
+    top: 477px;
+    width: 92px;
+}
+
+.dd-mm-yy2,
+.male-female2 {
+    top: 423px;
+    left: 231px;
+    font-weight: 100;
+    color: #000;
+}
+
+.dd-mm-yy2 {
+    top: 477px;
+    left: 238px;
+    height: 39px;
+}
+
+.microsoft-outlook-icon2,
+.tooth-icon11 {
+    position: absolute;
+    top: 474px;
+    left: 357px;
+    width: 26px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.tooth-icon11 {
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+}
+
+.about11,
+.clinic12,
+.receptionist14 {
+    position: absolute;
+    display: inline-block;
+}
+
+.clinic12 {
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    width: 175px;
+    height: 38px;
+}
+
+.about11,
+.receptionist14 {
+    top: 53px;
+    left: 816px;
+    font-weight: 600;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about11 {
+    left: 646px;
+    width: 47px;
+}
+
+.contact11,
+.doctor13,
+.laboratorian14,
+.login23,
+.logout4,
+.register13 {
+    position: absolute;
+    top: 53px;
+    left: 724px;
+    font-weight: 600;
+    display: inline-block;
+    width: 61px;
+    height: 22px;
+}
+
+.doctor13,
+.laboratorian14,
+.login23,
+.logout4,
+.register13 {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor13,
+.laboratorian14,
+.login23,
+.logout4 {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor13,
+.laboratorian14,
+.logout4 {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor13,
+.laboratorian14 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor13 {
+    left: 1064px;
+    width: 56px;
+}
+
+.receptionist13 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

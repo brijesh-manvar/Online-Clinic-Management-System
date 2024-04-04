@@ -1,0 +1,163 @@
+﻿body {
+    .about-1-icon1
+
+{
+    position: absolute;
+    top: 106px;
+    left: 0;
+    width: 1385px;
+    height: 673px;
+    object-fit: cover;
+}
+
+.about-us {
+    position: absolute;
+    top: 154px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    width: 104px;
+    height: 23px;
+}
+
+.appointment-scheduling-the-sy1 {
+    margin-bottom: 0;
+}
+
+.appointment-scheduling-the-sy {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 20px;
+}
+
+.blank-line {
+    margin: 0;
+}
+
+.patient2 {
+    text-decoration: underline;
+}
+
+.patient1 {
+    color: inherit;
+}
+
+.appointment-scheduling-the-container {
+    position: absolute;
+    top: 210px;
+    left: 82px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    width: 791px;
+    height: 284px;
+}
+
+.tooth-icon12 {
+    position: absolute;
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.about13,
+.clinic13,
+.receptionist15 {
+    position: absolute;
+    display: inline-block;
+}
+
+.clinic13 {
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    width: 175px;
+    height: 38px;
+}
+
+.about13,
+.receptionist15 {
+    top: 53px;
+    left: 816px;
+    font-weight: 600;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about13 {
+    left: 646px;
+    width: 47px;
+}
+
+.contact13,
+.doctor14,
+.laboratorian15,
+.login23,
+.logout6,
+.register12 {
+    position: absolute;
+    top: 53px;
+    left: 724px;
+    font-weight: 600;
+    display: inline-block;
+    width: 61px;
+    height: 22px;
+}
+
+.doctor14,
+.laboratorian15,
+.login23,
+.logout6,
+.register12 {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor14,
+.laboratorian15,
+.login23,
+.logout6 {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor14,
+.laboratorian15,
+.logout6 {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor14,
+.laboratorian15 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor14 {
+    left: 1064px;
+    width: 56px;
+}
+
+.about12 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

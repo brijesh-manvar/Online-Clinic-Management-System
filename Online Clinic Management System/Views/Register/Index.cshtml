@@ -1,0 +1,65 @@
+﻿@model Online_Clinic_Management_System.Models.RegisterModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/Register.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" />
+</head>
+<body>
+    <div class="register">
+        <form asp-action="Add" method="post" id="registrationForm">
+            <img class="regs-1-icon" alt="" src="~/images/img_regs1.png" />
+
+            <div class="register-child"></div>
+            <b class="registration">Registration</b>
+
+            <input asp-for="Name" class="register-item" type="text" />
+
+            <input asp-for="PhoneNumber" class="register-inner" type="text" />
+
+            <input asp-for="Email" class="rectangle-input" type="text" />
+
+            <input asp-for="Password" class="register-child1" type="text" />
+
+            <input asp-for="ConfirmPassword" class="register-child2" type="text" />
+
+            <button type="button" class="rectangle-button" id="rectangleButton">Register</button>
+        </form>
+
+        <div class="do-you-have">Do you have an Account ?</div>
+        <a class="login" id="login" href="@Url.Action("Index", "Login")">Login</a>
+        <div class="name">Name</div>
+        <div class="phone-number">Phone number</div>
+        <div class="e-mail-id">E-mail id</div>
+        <div class="password">Password</div>
+        <div class="re-enter-password">Re-enter Password</div>
+        <img class="tooth-icon" alt="" src="~/images/img_tooth_51x45.png" />
+
+        <a class="clinic">Clinic </a>
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist" id="receptionist">Receptionist</a>
+        <a asp-controller="About" asp-action="Index" class="about" id="about">About</a>
+        <a asp-controller="Contact" asp-action="Index" class="contact" id="contact">Contact</a>
+        <a asp-controller="Login" asp-action="Index" class="register2" id="register1">Login</a>
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian" id="laboratorian">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor" id="doctor">Doctor</a>
+
+    </div>
+
+    <script>
+        document.getElementById("rectangleButton").addEventListener("click", function () {
+            alert("Your registration has been submitted successfully!");
+            // You can add additional logic here if needed
+        });
+    </script>
+
+</body>
+</html>

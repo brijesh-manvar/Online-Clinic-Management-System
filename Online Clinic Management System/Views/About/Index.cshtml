@@ -1,0 +1,139 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/About.css" />
+    <link rel="stylesheet" href="~/css/Login.css" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="about12">
+        <img class="about-1-icon1" alt="" src="~/images/img_about1.png" />
+
+        <div class="about-us">About Us</div>
+        <div class="appointment-scheduling-the-container">
+            <ul class="appointment-scheduling-the-sy">
+                <li class="appointment-scheduling-the-sy1">
+                    Appointment Scheduling: The system allows you to schedule
+                    appointments online, send reminders, and manage patient waitlists.
+                </li>
+            </ul>
+            <p class="blank-line">&nbsp;</p>
+            <p class="blank-line">&nbsp;</p>
+            <ul class="appointment-scheduling-the-sy">
+                <li class="appointment-scheduling-the-sy1">
+                    Patient Records Management: The system provides a platform for you
+                    to manage
+                    <a class="patient1"
+                       href="https://en.wikipedia.org/wiki/Patient"
+                       target="_blank">
+                        <span class="patient2">patient</span>
+                    </a>
+                    records, including medical history, treatment plans, and test
+                    results.
+                </li>
+            </ul>
+            <p class="blank-line">&nbsp;</p>
+            <p class="blank-line">&nbsp;</p>
+            <ul class="appointment-scheduling-the-sy">
+                <li class="appointment-scheduling-the-sy1">
+                    Billing and Invoicing: The system allows you to generate invoices,
+                    manage payments, and track billing history.
+                </li>
+            </ul>
+            <p class="blank-line">&nbsp;</p>
+            <p class="blank-line">&nbsp;</p>
+            <ul class="appointment-scheduling-the-sy">
+                <li>
+                    Inventory Management: The system can help you manage your inventory
+                    by tracking medical supplies, medications, and equipment.
+                </li>
+            </ul>
+        </div>
+        <img class="tooth-icon12" alt="" src="~/images/img_tooth_51x45.png" />
+
+        <div class="clinic5">Clinic</div>
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist7" id="receptionist">Receptionist</a>
+        <a asp-controller="About" asp-action="Index" class="about5" id="about">About</a>
+        <a asp-controller="Contact" asp-action="Index" class="contact5" id="contact">Contact</a>
+        <a asp-controller="Home" asp-action="Index" class="register7" id="register">Logout</a>
+        <script>
+            var logout = document.getElementById("logout");
+            if (logout) {
+                logout.addEventListener("click", function (e) {
+                    // Display confirmation dialog box
+                    if (confirm("Are you sure you want to logout?")) {
+                        window.location.href = "./login.html"; // Redirect to the logout page
+                    }
+                });
+            }
+        </script>
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian7" id="laboratorian">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor7" id="doctor">Doctor</a>
+
+
+    </div>
+
+    <script>
+        var receptionistText = document.getElementById("receptionistText");
+        if (receptionistText) {
+            receptionistText.addEventListener("click", function (e) {
+                window.location.href = "./receptionist.html";
+            });
+        }
+
+        var aboutText = document.getElementById("aboutText");
+        if (aboutText) {
+            aboutText.addEventListener("click", function (e) {
+                window.location.href = "./about.html";
+            });
+        }
+
+        var registerText = document.getElementById("registerText");
+        if (registerText) {
+            registerText.addEventListener("click", function (e) {
+                window.location.href = "./register.html";
+            });
+        }
+
+        var loginText = document.getElementById("loginText");
+        if (loginText) {
+            loginText.addEventListener("click", function (e) {
+                window.location.href = "./login.html";
+            });
+        }
+
+        var logoutText = document.getElementById("logoutText");
+        if (logoutText) {
+            logoutText.addEventListener("click", function (e) {
+                window.location.href = "./login.html";
+            });
+        }
+
+        var laboratorianText = document.getElementById("laboratorianText");
+        if (laboratorianText) {
+            laboratorianText.addEventListener("click", function (e) {
+                window.location.href = "./laboratorian.html";
+            });
+        }
+
+        var doctorText = document.getElementById("doctorText");
+        if (doctorText) {
+            doctorText.addEventListener("click", function (e) {
+                window.location.href = "./doc-detail.html";
+            });
+        }
+    </script>
+</body>
+</html>
+
+

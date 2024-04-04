@@ -1,0 +1,209 @@
+﻿body {
+    .whatsapp-image-2024-01-29-at-05
+
+{
+    position: absolute;
+    top: 102px;
+    left: 0;
+    width: 1385px;
+    height: 677px;
+    object-fit: cover;
+}
+
+.login-child {
+    position: absolute;
+    top: 185px;
+    left: calc(50% - 160.5px);
+    border-radius: 15px;
+    background-color: #fff;
+    width: 320px;
+    height: 467px;
+}
+
+.login15 {
+    position: absolute;
+    top: 210px;
+    left: calc(50% - 28.5px);
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    display: inline-block;
+    width: 56px;
+    height: 32px;
+}
+
+.login-inner,
+.login-item {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 299px;
+    left: calc(50% - 105.5px);
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 210px;
+    height: 40px;
+}
+
+.login-inner {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    top: 380px;
+}
+
+.e-mail-id5,
+.password5 {
+    position: absolute;
+    top: 307px;
+    left: 602px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    display: inline-block;
+    width: 125px;
+    height: 23px;
+}
+
+.password5 {
+    top: 388px;
+}
+
+.login-child1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #d53d0e;
+    position: absolute;
+    top: 484px;
+    left: calc(50% - 60.5px);
+    width: 121px;
+    height: 40px;
+}
+
+.create-a-new4,
+.login16 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    height: 23px;
+    cursor: pointer;
+}
+
+.login16 {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 490px;
+    left: calc(50% - 31.5px);
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    width: 63px;
+}
+
+.create-a-new4 {
+    text-decoration: none;
+    top: 590px;
+    left: 578px;
+    color: inherit;
+    width: 228px;
+}
+
+.tooth-icon5 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.clinic5 {
+    position: absolute;
+    top: 38px;
+    left: 77px;
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.about5,
+.contact5,
+.doctor7,
+.laboratorian7,
+.login17,
+.receptionist7,
+.register7 {
+    text-decoration: none;
+    position: absolute;
+    top: 42px;
+    left: 828px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    width: 93px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.about5,
+.contact5,
+.doctor7,
+.laboratorian7,
+.login17,
+.register7 {
+    left: 658px;
+    width: 47px;
+}
+
+.contact5,
+.doctor7,
+.laboratorian7,
+.login17,
+.register7 {
+    left: 736px;
+    width: 61px;
+}
+
+.doctor7,
+.laboratorian7,
+.login17,
+.register7 {
+    left: 1148px;
+    width: 67px;
+}
+
+.doctor7,
+.laboratorian7,
+.login17 {
+    left: 1245px;
+    width: 45px;
+}
+
+.doctor7,
+.laboratorian7 {
+    left: 952px;
+    width: 93px;
+}
+
+.doctor7 {
+    left: 1076px;
+    width: 56px;
+}
+
+.login14 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

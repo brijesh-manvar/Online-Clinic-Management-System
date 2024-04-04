@@ -1,0 +1,76 @@
+﻿@model Online_Clinic_Management_System.Models.LaboratorianViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/Laboratorian.css" />
+    <link rel="stylesheet" href="~/css/Login.css" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="laboratorian12">
+        <form id="laboratorianForm" asp-action="Add" method="post">
+            <img class="lab-1-icon" alt="" src="~/images/img_lab1.png" />
+            <button class="laboratorian-child"></button>
+            <button class="submit1" type="button" id="submitBtn">Submit</button>
+            <input asp-for="Name" class="laboratorian-item" type="text" />
+            <input asp-for="PhoneNo" class="laboratorian-inner" type="text" />
+            <input asp-for="Experience" class="laboratorian-child1" type="text" />
+            <input asp-for="Email" class="laboratorian-child2" type="text" />
+            <div class="laboratorian-detail">Laboratorian Detail</div>
+            <div class="name2">Name...</div>
+            <div class="phone-no1">Phone no...</div>
+            <div class="email-add1">Email Add...</div>
+            <div class="password7">Password...</div>
+            <input asp-for="Password" class="laboratorian-child3" type="text" />
+            <input asp-for="Gender" class="laboratorian-child4" type="text" />
+        </form>
+
+        <div class="gender1">Gender</div>
+        <div class="date-of-birth1">Date of Birth</div>
+        <div class="male-female1">male / female</div>
+        <div class="dd-mm-yy1">dd-mm-yy</div>
+        <img class="microsoft-outlook-icon1"
+             alt=""
+             src="~/images/img_microsoftoutlook.png" />
+        <img class="tooth-icon10" alt="" src="~/images/img_tooth_51x45.png" />
+        <div class="clinic5">Clinic</div>
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist7" id="receptionist">Receptionist</a>
+        <a asp-controller="About" asp-action="Index" class="about5" id="about">About</a>
+        <a asp-controller="Contact" asp-action="Index" class="contact5" id="contact">Contact</a>
+        <a asp-controller="Home" asp-action="Index" class="register7" id="register">Logout</a>
+        <script>
+            var logout = document.getElementById("logout");
+            if (logout) {
+                logout.addEventListener("click", function (e) {
+                    // Display confirmation dialog box
+                    if (confirm("Are you sure you want to logout?")) {
+                        window.location.href = "./login.html"; // Redirect to the logout page
+                    }
+                });
+            }
+        </script>
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian7" id="laboratorian">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor7" id="doctor">Doctor</a>
+    </div>
+
+    <script>
+        document.getElementById("submitBtn").addEventListener("click", function () {
+            // Display confirmation dialog box
+            if (confirm("Are you sure you want to submit the form?")) {
+                // If user confirms, submit the form
+                document.getElementById("laboratorianForm").submit();
+            }
+        });
+    </script>
+</body>
+</html>

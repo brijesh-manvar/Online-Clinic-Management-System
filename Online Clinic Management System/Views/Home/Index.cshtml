@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/Home.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="home-1">
+        
+       
+        <img class="tooth-icon" alt="" src="~/images/img_tooth.png" />
+
+        <h1 class="clinic">Clinic</h1>
+        
+        <img class="rectangle-section" alt="" src="~/images/img_whatsappimage20240129.png"  />
+        <img class="back-icon" alt="" src="~/images/img_back.png" id="backImage" />
+
+        <img class="forward-icon"
+             alt=""
+             src="./public/forward@2x.png"
+             id="forwardImage" />
+
+        <h2 class="keep-your-body">KEEP YOUR BODY HEALTHY</h2>
+        <h1 class="clinic-management">Clinic Management</h1>
+       
+
+        <b class="email1">Email</b>
+        
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist" id="receptionistText">Receptionist</a>
+        <button class="about" id="about">About</button>
+        <a asp-controller="About" asp-action="Index" class="about" id="about">About</a>
+
+        <a asp-controller="Contact" asp-action="Index" class="contact" id="contactText">Contact</a>
+
+
+        <a asp-controller="Register" asp-action="Index" class="register" id="registerText">Register</a>
+
+        
+        <a asp-controller="Login" asp-action="Index" class="login3" id="loginText">Login</a>
+
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian" id="laboratorianText">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor" id="doctorText">Doctor</a>
+    </div>
+
+    <script>
+        var backImage = document.getElementById("backImage");
+        if (backImage) {
+            backImage.addEventListener("click", function (e) {
+                // Please sync "Home-2" to the project
+            });
+        }
+
+        var forwardImage = document.getElementById("forwardImage");
+        if (forwardImage) {
+            forwardImage.addEventListener("click", function (e) {
+                // Please sync "Home-2" to the project
+            });
+        }
+
+        var receptionistText = document.getElementById("receptionistText");
+        if (receptionistText) {
+            receptionistText.addEventListener("click", function (e) {
+                window.location.href = "./receptionist.html";
+            });
+        }
+
+        var about = document.getElementById("about");
+        if (about) {
+            about.addEventListener("click", function (e) {
+                window.location.href = "./about.html";
+            });
+        }
+
+        var contactText = document.getElementById("contactText");
+        if (contactText) {
+            contactText.addEventListener("click", function (e) {
+                window.location.href = "./contact.html";
+            });
+        }
+
+        var registerText = document.getElementById("registerText");
+        if (registerText) {
+            registerText.addEventListener("click", function (e) {
+                // Please sync "Register" to the project
+            });
+        }
+
+        var loginText = document.getElementById("loginText");
+        if (loginText) {
+            loginText.addEventListener("click", function (e) {
+                window.location.href = "./login.html";
+            });
+        }
+
+        var laboratorianText = document.getElementById("laboratorianText");
+        if (laboratorianText) {
+            laboratorianText.addEventListener("click", function (e) {
+                window.location.href = "./laboratorian.html";
+            });
+        }
+
+        var doctorText = document.getElementById("doctorText");
+        if (doctorText) {
+            doctorText.addEventListener("click", function (e) {
+                window.location.href = "./doc-detail.html";
+            });
+        }
+    </script>
+</body>
+</html>
+

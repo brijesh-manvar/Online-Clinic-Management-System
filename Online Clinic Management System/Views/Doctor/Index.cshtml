@@ -1,0 +1,76 @@
+﻿@model Online_Clinic_Management_System.Models.DoctorViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/Doctor.css" />
+    <link rel="stylesheet" href="~/css/Login.css" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="doc-detail">
+        <form id="doctorForm" asp-action="Add" method="post">
+            <img class="download-1-1" alt="" src="~/images/img_download11.png" />
+            <div class="doctor-details">Doctor Details</div>
+            <input asp-for="Name" class="doc-detail-child" type="text" />
+            <input asp-for="PhoneNo" class="doc-detail-item" type="text" />
+            <input asp-for="Experience" class="doc-detail-inner" type="text" />
+            <input asp-for="Email" class="doc-detail-child1" type="text" />
+            <input asp-for="Password" class="doc-detail-child2" type="text" />
+            <input asp-for="Gender" class="doc-detail-child3" type="text" />
+            <input asp-for="DateOfBirth" class="doc-detail-child4" type="text" />
+            <button type="button" class="doc-detail-child5" onclick="submitForm()">Submit</button>
+            <button type="reset" class="doc-detail-child6">Reset</button>
+            <button type="button" class="doc-detail-child7">Cancel</button>
+        </form>
+        <div class="name1">Name...</div>
+        <div class="phone-no">Phone no...</div>
+        <div class="experience">Experience...</div>
+        <div class="email-add">Email Add...</div>
+        <div class="password6">Password...</div>
+        <div class="gender">Gender</div>
+        <div class="date-of-birth">Date of Birth</div>
+        <div class="dd-mm-yy">dd-mm-yy</div>
+        <div class="male-female">male / female</div>
+        <img class="microsoft-outlook-icon" alt="" src="~/images/img_microsoftoutlook.png" />
+        <img class="tooth-icon7" alt="" src="~/images/img_tooth_51x45.png" />
+        <div class="clinic5">Clinic</div>
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist7" id="receptionist">Receptionist</a>
+        <a asp-controller="About" asp-action="Index" class="about5" id="about">About</a>
+        <a asp-controller="Contact" asp-action="Index" class="contact5" id="contact">Contact</a>
+        <a asp-controller="Home" asp-action="Index" class="register7" id="register">Logout</a>
+        <script>
+            var logout = document.getElementById("logout");
+            if (logout) {
+                logout.addEventListener("click", function (e) {
+                    // Display confirmation dialog box
+                    if (confirm("Are you sure you want to logout?")) {
+                        window.location.href = "./login.html"; // Redirect to the logout page
+                    }
+                });
+            }
+        </script>
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian7" id="laboratorian">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor7" id="doctor">Doctor</a>
+    </div>
+
+    <script>
+        function submitForm() {
+            // Display confirmation dialog box
+            if (confirm("Are you sure you want to submit?")) {
+                // Submit the form
+                document.getElementById("doctorForm").submit();
+            }
+        }
+    </script>
+</body>
+</html>

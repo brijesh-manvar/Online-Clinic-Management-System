@@ -1,0 +1,293 @@
+﻿body {
+    .patient1-1-icon
+
+{
+    position: absolute;
+    top: 113px;
+    left: 0;
+    width: 1385px;
+    height: 666px;
+    object-fit: cover;
+}
+
+.patient-child,
+.patient-child1,
+.patient-inner,
+.patient-item {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 193px;
+    left: 96px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 34px;
+}
+
+.patient-child1,
+.patient-inner,
+.patient-item {
+    top: 250px;
+}
+
+.patient-child1,
+.patient-inner {
+    top: 307px;
+}
+
+.patient-child1 {
+    top: 364px;
+}
+
+.patient-detail {
+    position: absolute;
+    top: 146px;
+    left: 141px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    display: inline-block;
+    width: 194px;
+    height: 37px;
+}
+
+.allergies,
+.email-add3,
+.name4,
+.phone-no4 {
+    position: absolute;
+    top: 201px;
+    left: 117px;
+    font-weight: 100;
+    color: #000;
+    display: inline-block;
+    width: 144px;
+    height: 18px;
+}
+
+.allergies,
+.email-add3,
+.phone-no4 {
+    top: 258px;
+}
+
+.allergies,
+.email-add3 {
+    top: 315px;
+}
+
+.allergies {
+    top: 372px;
+}
+
+.patient-child2,
+.patient-child3 {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    outline: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 415px;
+    left: 219px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 164px;
+    height: 34px;
+}
+
+.patient-child3 {
+    top: 469px;
+}
+
+.date-of-birth3,
+.dd-mm-yy3,
+.gender3,
+.male-female3 {
+    position: absolute;
+    top: 423px;
+    left: 96px;
+    font-weight: 200;
+    color: #fff;
+    display: inline-block;
+    width: 62px;
+    height: 18px;
+}
+
+.date-of-birth3,
+.dd-mm-yy3,
+.male-female3 {
+    top: 477px;
+    width: 92px;
+}
+
+.dd-mm-yy3,
+.male-female3 {
+    top: 423px;
+    left: 255px;
+    font-weight: 100;
+    color: #000;
+}
+
+.dd-mm-yy3 {
+    top: 475px;
+    width: 80px;
+    height: 16px;
+}
+
+.microsoft-outlook-icon3,
+.tooth-icon16 {
+    position: absolute;
+    top: 474px;
+    left: 357px;
+    width: 26px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.tooth-icon16 {
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+}
+
+.clinic17 {
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.receptionist19 {
+    left: 816px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.about17,
+.contact17,
+.receptionist19 {
+    position: absolute;
+    top: 53px;
+    font-weight: 600;
+    display: inline-block;
+    height: 22px;
+}
+
+.about17 {
+    left: 646px;
+    width: 47px;
+    cursor: pointer;
+}
+
+.contact17 {
+    left: 724px;
+    width: 61px;
+}
+
+.login28,
+.register18 {
+    position: absolute;
+    cursor: pointer;
+}
+
+.register18 {
+    top: 53px;
+    left: 1136px;
+    font-weight: 600;
+    display: inline-block;
+    width: 93px;
+    height: 22px;
+}
+
+.login28 {
+    left: 1233px;
+    width: 45px;
+}
+
+.laboratorian19,
+.login28,
+.logout9 {
+    top: 53px;
+    font-weight: 600;
+    display: inline-block;
+    height: 22px;
+}
+
+.logout9 {
+    position: absolute;
+    left: 1306px;
+    width: 56px;
+    cursor: pointer;
+}
+
+.laboratorian19 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor18,
+.laboratorian19,
+.patient-child4 {
+    cursor: pointer;
+    position: absolute;
+}
+
+.doctor18 {
+    top: 53px;
+    left: 1064px;
+    font-weight: 600;
+    display: inline-block;
+    width: 56px;
+    height: 22px;
+}
+
+.patient-child4 {
+    border: 1px solid rgba(0, 0, 0, 0.52);
+    padding: 0;
+    background-color: #0015d4;
+    top: 542px;
+    left: calc(50% - 504.5px);
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    width: 97px;
+    height: 34px;
+}
+
+.patient3,
+.submit5 {
+    font-size: 15px;
+    font-family: Inter;
+}
+
+.submit5 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 550px;
+    left: calc(50% - 502.5px);
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 92px;
+    height: 18px;
+}
+
+.patient3 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    color: #008bda;
+}
+
+}

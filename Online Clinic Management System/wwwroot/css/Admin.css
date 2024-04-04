@@ -1,0 +1,218 @@
+﻿body {
+    .admin-1-icon
+
+{
+    position: absolute;
+    top: 113px;
+    left: 0;
+    width: 1385px;
+    height: 666px;
+    object-fit: cover;
+}
+
+.admin-child {
+    position: absolute;
+    top: 216px;
+    left: calc(50% - 125.5px);
+    border-radius: 15px;
+    background-color: #fff;
+    width: 320px;
+    height: 467px;
+}
+
+.clinic6 {
+    position: absolute;
+    top: 238px;
+    left: 629px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    width: 185px;
+    height: 29px;
+}
+
+.admin-child1,
+.admin-inner,
+.admin-item,
+.rectangle-a {
+    text-decoration: none;
+    position: absolute;
+    top: 306px;
+    left: 585px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    box-sizing: border-box;
+    width: 210px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.admin-child1,
+.admin-inner,
+.rectangle-a {
+    top: 398px;
+    border: 1px solid rgba(0, 0, 0, 0.52);
+}
+
+.admin-child1,
+.rectangle-a {
+    top: 490px;
+    border: 1px solid rgba(0, 0, 0, 0.48);
+}
+
+.admin-child1 {
+    top: 582px;
+    border: 1px solid rgba(0, 0, 0, 0.52);
+}
+
+.lab-test,
+.logout,
+.patient,
+.precription {
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    display: inline-block;
+    height: 29px;
+}
+
+.precription {
+    top: 317px;
+    left: calc(50% - 22.5px);
+    width: 116px;
+    cursor: pointer;
+}
+
+.lab-test,
+.logout,
+.patient {
+    top: 403px;
+    left: calc(50% - 0.5px);
+    width: 76px;
+}
+
+.lab-test,
+.logout {
+    top: 495px;
+    left: calc(50% - 8.5px);
+    width: 90px;
+    cursor: pointer;
+}
+
+.logout {
+    top: 588px;
+    left: calc(50% - 49.5px);
+    text-align: center;
+    width: 169px;
+}
+
+.tooth-icon6 {
+    position: absolute;
+    top: 39px;
+    left: 20px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+}
+
+.clinic7 {
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+    width: 175px;
+    height: 38px;
+}
+
+.receptionist8 {
+    left: 816px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.about6,
+.contact6,
+.doctor8,
+.laboratorian8,
+.login18,
+.logout1,
+.receptionist8,
+.register8 {
+    position: absolute;
+    top: 53px;
+    font-weight: 600;
+    display: inline-block;
+    height: 22px;
+}
+
+.about6 {
+    left: 646px;
+    width: 47px;
+    cursor: pointer;
+}
+
+.contact6,
+.doctor8,
+.laboratorian8,
+.login18,
+.logout1,
+.register8 {
+    left: 724px;
+    width: 61px;
+}
+
+.doctor8,
+.laboratorian8,
+.login18,
+.logout1,
+.register8 {
+    left: 1136px;
+    width: 93px;
+    cursor: pointer;
+}
+
+.doctor8,
+.laboratorian8,
+.login18,
+.logout1 {
+    left: 1233px;
+    width: 45px;
+}
+
+.doctor8,
+.laboratorian8,
+.logout1 {
+    left: 1306px;
+    width: 56px;
+}
+
+.doctor8,
+.laboratorian8 {
+    left: 940px;
+    width: 93px;
+}
+
+.doctor8 {
+    left: 1064px;
+    width: 56px;
+}
+
+.admin1 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 779px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #008bda;
+    font-family: Inter;
+}
+
+}

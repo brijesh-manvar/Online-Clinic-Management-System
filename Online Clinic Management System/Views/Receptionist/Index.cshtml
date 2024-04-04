@@ -1,0 +1,77 @@
+﻿@model Online_Clinic_Management_System.Models.ReceptionistViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/Receptionist.css" />
+    <link rel="stylesheet" href="~/css/Login.css" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="receptionist13">
+        <form id="receptionistForm" asp-action="Add" method="post">
+            <img class="rec1-1-icon" alt="" src="~/images/img_rec11.png" />
+            <button class="receptionist-child"></button>
+            <button class="submit2" type="button" id="submitBtn">Submit</button>
+            <input asp-for="Name" class="receptionist-item" type="text" />
+            <input asp-for="PhoneNumber" class="receptionist-inner" type="text" />
+            <input asp-for="Email" class="receptionist-child1" type="text" />
+            <input asp-for="Password" class="receptionist-child2" type="text" />
+            <input asp-for="Gender" class="receptionist-child3" type="text" />
+            <input asp-for="DateOfBirth" class="receptionist-child4" type="text" />
+        </form>
+
+        <div class="receptionist-detail">
+            <b>Receptionist</b>
+            <span class="detail"> Detail</span>
+        </div>
+        <div class="name3">Name...</div>
+        <div class="phone-no2">Phone no...</div>
+        <div class="email-add2">Email Add...</div>
+        <div class="password8">Password...</div>
+        <div class="gender2">Gender</div>
+        <div class="date-of-birth2">Date of Birth</div>
+        <div class="male-female2">male / female</div>
+        <div class="dd-mm-yy2">dd-mm-yy</div>
+        <img class="microsoft-outlook-icon2" alt="" src="~/images/img_microsoftoutlook.png" />
+        <img class="tooth-icon11" alt="" src="~/images/img_tooth_51x45.png" />
+        <div class="clinic5">Clinic</div>
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist7" id="receptionist">Receptionist</a>
+        <a asp-controller="About" asp-action="Index" class="about5" id="about">About</a>
+        <a asp-controller="Contact" asp-action="Index" class="contact5" id="contact">Contact</a>
+        <a asp-controller="Home" asp-action="Index" class="register7" id="register">Logout</a>
+        <script>
+            var logout = document.getElementById("logout");
+            if (logout) {
+                logout.addEventListener("click", function (e) {
+                    // Display confirmation dialog box
+                    if (confirm("Are you sure you want to logout?")) {
+                        window.location.href = "./login.html"; // Redirect to the logout page
+                    }
+                });
+            }
+        </script>
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian7" id="laboratorian">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor7" id="doctor">Doctor</a>
+    </div>
+
+    <script>
+        document.getElementById("submitBtn").addEventListener("click", function () {
+            // Display confirmation dialog box
+            if (confirm("Are you sure you want to submit?")) {
+                // If user confirms, submit the form
+                document.getElementById("receptionistForm").submit();
+            }
+        });
+    </script>
+</body>
+</html>

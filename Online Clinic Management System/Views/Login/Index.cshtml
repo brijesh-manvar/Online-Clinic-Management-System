@@ -1,0 +1,65 @@
+﻿@model Online_Clinic_Management_System.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="~/css/Login.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="login14">
+        <form asp-action="Add" method="post" id="loginForm">
+            <img class="whatsapp-image-2024-01-29-at-05"
+                 alt=""
+                 src="~/images/Login.png" />
+
+            <div class="login-child"></div>
+            <div class="login15">Login</div>
+
+            <input asp-for="Email" class="login-item" type="text" />
+
+
+            <input asp-for="Password" class="login-inner" type="text" />
+
+            <div class="e-mail-id5">E-mail id</div>
+            <div class="password5">Password</div>
+            <button type="button" class="login-child1" id="loginButton">Login</button>
+
+        </form>
+
+
+        <a asp-controller="Register" asp-action="Index" class="create-a-new4" id="createANew">Create a New Account</a>
+
+        <img class="tooth-icon5" alt="" src="~/images/img_tooth_51x45.png" />
+
+        <div class="clinic5">Clinic</div>
+        <a asp-controller="Receptionist" asp-action="Index" class="receptionist7" id="receptionist">Receptionist</a>
+        <a asp-controller="About" asp-action="Index" class="about5" id="about">About</a>
+        <a asp-controller="Contact" asp-action="Index" class="contact5" id="contact">Contact</a>
+        <a asp-controller="Register" asp-action="Index" class="register7" id="register">Register</a>
+        <a asp-controller="Laboratorian" asp-action="Index" class="laboratorian7" id="laboratorian">Laboratorian</a>
+        <a asp-controller="Doctor" asp-action="Index" class="doctor7" id="doctor">Doctor</a>
+
+
+    </div>
+
+    <script>
+        document.getElementById("loginButton").addEventListener("click", function () {
+            // Perform login operation here
+            // For demonstration, just showing a dialog box
+            alert("Login successful!");
+            // Redirect to the admin page after successful login
+            window.location.href = "@Url.Action("Index", "Admin")";
+        });
+    </script>
+
+
+</body>
+</html>
